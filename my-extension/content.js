@@ -1,5 +1,5 @@
 (function() {
-  // Check if the 'a' object and 'getQuestion' function are available in the global scope
+  // Ensure the script runs in the context where 'a' object and 'getQuestion' function are defined
   if (typeof a === 'object' && typeof a.getQuestion === 'function') {
     const questions = a.getQuestion(1);
 
@@ -12,6 +12,8 @@
         console.error('Question array is not in the expected format:', i);
       }
     });
+
+    console.log('Question array modified successfully.');
   } else {
     console.error('The expected object or method is not available.');
   }
