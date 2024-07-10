@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Question Array Modifier",
+    "name": "Time Free OLT",
     "version": "1.0",
     "description": "Modifies specific indices of question arrays on the page.",
     "permissions": [
